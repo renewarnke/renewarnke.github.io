@@ -56,7 +56,32 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+Impressum: '<h1>Impressum</h1>
+
+<p>Rene Warnke<br />
+IT Consulting<br />
+Musterstra&szlig;e 111<br />
+Geb&auml;ude 44<br />
+90210 Musterstadt</p>
+
+<h2>Kontakt</h2>
+<p>Telefon: +49 (0) 123 44 55 66<br />
+Telefax: +49 (0) 123 44 55 99<br />
+E-Mail: mustermann@musterfirma.de</p>
+
+<h2>Umsatzsteuer-ID</h2>
+<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
+DE999999999</p>
+
+<h2>Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+<p>Berufsbezeichnung:<br />
+IT Berater</p>
+<p>Verliehen in:<br />
+Deutschland</p>
+<h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+<p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+<p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>'
 
 # Build settings
 markdown: kramdown
