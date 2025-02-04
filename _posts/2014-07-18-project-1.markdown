@@ -5,6 +5,5 @@ date: 2024
 img: cabin.png
 alt: image-alt
 category: Azure Landing Zone / Plattform Lead
-description: Ich unterstütze Sie und Ihr Team bei dem effizienten und anforderungsorientierten Entwurf und Aufbau einer Azure Landing Zone nach allgemeinen best practices und persönlichen Erfahrungswerten.
-Dabei greife ich auf das allgemeine Vorgehen nach dem Cloud Adoption Framework zurück und bediene mich moderner Tools wie Terraform, CI/CD und Security Lösungen. Insgesamte liegt mein Fokus dabei auf der Architektur, Beratung zur gesamtheitlichen Einführung und dem Coaching von relevantem Personal.
+description: Ich unterstütze Sie und Ihr Team bei dem effizienten und anforderungsorientierten Entwurf und Aufbau einer Azure Landing Zone nach allgemeinen best practices und persönlichen Erfahrungswerten. Dabei greife ich auf das allgemeine Vorgehen nach dem Cloud Adoption Framework zurück und bediene mich moderner Tools wie Terraform, CI/CD und Security Lösungen. Insgesamte liegt mein Fokus dabei auf der Architektur, Beratung zur gesamtheitlichen Einführung und dem Coaching von relevantem Personal.
 ---
