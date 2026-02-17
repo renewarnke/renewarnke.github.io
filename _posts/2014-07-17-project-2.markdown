@@ -3,6 +3,6 @@ layout: default
 modal-id: 2
 img: cake.png
 alt: image-alt
-category: Souveräne Digitalisierung
-description: Planung und Umsetzung von souveränen Cloud / IT Lösungen für kleine bis mittelgroße Unternehmen. Ich unterstütze Sie beim Umstieg oder Einsatz von alternativen Lösungen im Public Cloud Umfeld, wie zum Beispiel Nextcloud als Office Ersatz. 
+category: Workplace
+description: Nicht jedes Unternehmen braucht Microsoft 365 oder Google Workspace. Ich helfe Ihnen, einen digitalen Arbeitsplatz aufzubauen, der wirklich zu Ihrem Team passt — mit Nextcloud, Collabora, eigener Mail-Lösung und weiteren europäischen Alternativen. Produktiv arbeiten ohne Big Tech, DSGVO-konform und bezahlbar.
 ---

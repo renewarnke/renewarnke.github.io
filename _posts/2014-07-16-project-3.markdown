@@ -3,6 +3,6 @@ layout: default
 modal-id: 3
 img: circus.png
 alt: image-alt
-category: Cloud Governance / Strategie
-description: Ich unterstütze Sie und Ihr Team bei der Etablierung von maßgeschneiderte Cloud Governance und Strategie passend zu Ihrem Unternehmen. Von Kostenverwaltung bis regulatorische Compliance über Berücksichtung von aktuellen Anforderungen an Souveränität kann alles berücksichtigt werden.
+category: Strategie & Beratung
+description: Wo stehen Sie heute und wo wollen Sie hin? Gemeinsam analysieren wir Ihre aktuelle IT-Landschaft und entwickeln eine Strategie, die Ihr Unternehmen Schritt für Schritt unabhängig von Big Tech macht. Von der ersten Bestandsaufnahme bis zur Umsetzungsbegleitung — pragmatisch, auf Augenhöhe und ohne unnötige Komplexität.
 ---
