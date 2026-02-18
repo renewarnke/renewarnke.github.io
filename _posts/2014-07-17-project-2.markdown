@@ -4,5 +4,5 @@ modal-id: 2
 img: cake.png
 alt: image-alt
 category: Workplace
-description: Nicht jedes Unternehmen braucht Microsoft 365 oder Google Workspace. Ich helfe Ihnen, einen digitalen Arbeitsplatz aufzubauen, der wirklich zu Ihrem Team passt — mit Nextcloud, Collabora, eigener Mail-Lösung und weiteren europäischen Alternativen. Produktiv arbeiten ohne Big Tech, DSGVO-konform und bezahlbar.
+description: Ein digitaler Arbeitsplatz sollte zu Ihrem Team passen — nicht umgekehrt. Ich helfe Ihnen, die richtigen Werkzeuge für Ihren Arbeitsalltag zu finden und einzuführen: ob Nextcloud, Collabora, eigene Mail-Lösung oder andere hochwertige Alternativen. Produktiv, DSGVO-konform und bezahlbar.
 ---

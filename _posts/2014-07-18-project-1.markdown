@@ -4,5 +4,5 @@ modal-id: 1
 img: cabin.png
 alt: image-alt
 category: Infrastruktur
-description: Sie möchten weg von AWS, Azure oder Google Cloud? Ich begleite Sie beim Umstieg auf europäische Cloud-Anbieter und helfe Ihnen, eine eigene, unabhängige IT-Infrastruktur aufzubauen. Von Hosting über Netzwerk bis Security — ohne Vendor Lock-in und mit voller Datensouveränität.
+description: Eine solide IT-Infrastruktur muss nicht von den großen Hyperscalern kommen. Ich helfe Ihnen, eine Umgebung aufzubauen, die zu Ihrem Unternehmen passt — mit europäischen Cloud-Anbietern, durchdachter Architektur und voller Kontrolle über Ihre Daten. Von Hosting über Netzwerk bis Security.
 ---
