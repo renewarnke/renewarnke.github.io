@@ -1,2 +1,10 @@
 source "https://rubygems.org"
-gemspec
+
+gem "jekyll", "~> 4.4"
+
+group :jekyll_plugins do
+  gem "jekyll-seo-tag", "~> 2.9"
+  gem "jekyll-sitemap", "~> 1.4"
+end
+
+gem "webrick", "~> 1.9"

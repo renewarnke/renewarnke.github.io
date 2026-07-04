@@ -1,0 +1,16 @@
+<section class="hero" id="hero">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="hero__eyebrow">{{ site.tagline }}</p>
+      <h1 class="hero__title">{{ site.hero.headline }}</h1>
+      <p class="hero__subline">{{ site.hero.subline }}</p>
+      <a class="btn btn--primary" href="{{ site.hero.cta_url }}">{{ site.hero.cta_label }}</a>
+    </div>
+    {% if site.hero.image %}
+    <div class="hero__figure">
+      <img src="{{ site.hero.image | relative_url }}" alt="{{ site.author }}" width="320" height="320" loading="eager">
+    </div>
+    {% endif %}
+  </div>
+  <div class="hero__glow" aria-hidden="true"></div>
+</section>

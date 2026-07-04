@@ -1,0 +1,25 @@
+# Lösungen, mit denen ich arbeite
+- name: Nextcloud
+  detail: Dateien, Kalender, Kontakte
+- name: Collabora Online
+  detail: Dokumente, Tabellen, Präsentationen
+- name: Hetzner / IONOS
+  detail: Europäisches Cloud-Hosting
+- name: Mailcow
+  detail: E-Mail selbst gehostet
+- name: Jitsi
+  detail: Videokonferenzen
+- name: WireGuard
+  detail: VPN & sicherer Zugang
+- name: Tailscale
+  detail: Zero-Config VPN
+- name: Twingate
+  detail: Zero Trust Netzwerkzugang
+- name: MikroTik
+  detail: Netzwerk & Routing
+- name: Proton
+  detail: E-Mail & Speicher mit Fokus auf Privatsphäre
+- name: Microsoft Azure
+  detail: Public Cloud Plattform
+- name: Microsoft 365
+  detail: Produktivität & Zusammenarbeit

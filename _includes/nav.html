@@ -1,35 +1,19 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
-    </div>
+<header class="site-header" id="top" data-nav>
+  <div class="container site-header__inner">
+    <a class="brand" href="#top">{{ site.title }}</a>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="#page-top"></a>
-        </li>
-        <li class="page-scroll">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li class="page-scroll">
-          <a href="#about">About</a>
-        </li>
-        <li class="page-scroll">
-          <a href="#contact">Contact</a>
-        </li>
+    <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Hauptnavigation">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
       </ul>
-    </div>
-    <!-- /.navbar-collapse -->
+    </nav>
   </div>
-  <!-- /.container-fluid -->
-</nav>
+</header>

@@ -1,8 +1,0 @@
----
-layout: default
-modal-id: 2
-img: cake.png
-alt: image-alt
-category: Workplace
-description: "Ein digitaler Arbeitsplatz sollte zu Ihrem Team passen — nicht umgekehrt. Ich helfe Ihnen, die richtigen Werkzeuge für Ihren Arbeitsalltag zu finden und einzuführen: ob Nextcloud, Collabora, eigene Mail-Lösung oder andere hochwertige Alternativen. Produktiv, DSGVO-konform und bezahlbar."
----

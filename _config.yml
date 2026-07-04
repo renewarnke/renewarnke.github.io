@@ -1,67 +1,61 @@
 # Site settings
-title: IT-Lösungen die passen
+title: "IT-Lösungen die passen"
+tagline: "Cloud Beratung · Infrastruktur · Workplace"
 email: business@warnke.cloud
-url: renewarnke.de
+url: "https://renewarnke.de"
+baseurl: ""
+lang: de
 description: "Passende und hochwertige IT-Lösungen für Unternehmen — mit europäischen Anbietern und modernen Tools."
 keywords: "Cloud Beratung, KMU, Unternehmen, Europäische Cloud, Nextcloud, Digitalisierung, DSGVO, IT-Lösungen"
-skills: "Cloud Beratung - Infrastruktur - Workplace"
-meta_author: Warnke Rene
+author: René Warnke
 
-# Google webmaster tools
-google_verify:
+# Contact form (Formspree endpoint id -> https://formspree.io/f/<id>)
+formspree_id: meelzejj
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Hero section
+hero:
+  image: /img/profile.png
+  headline: "IT-Lösungen, die zu Ihrem Unternehmen passen"
+  subline: "Nicht zu groß, nicht zu teuer, nicht von der Stange. Durchdacht, hochwertig und mit Fokus auf europäische Anbieter, Datenschutz und langfristige Unabhängigkeit."
+  cta_label: "Kontakt aufnehmen"
+  cta_url: "#contact"
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-#disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: a2e8d1 #80B3FF
-  primary-rgb: "162,232,209" #"128,179,255"
-  secondary: 495a6b #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
+# Footer
 footer:
-  copyright: Rene Warnke
+  location_heading: Standort
   location: Hamburg
-  social: Around the Web
-  credits: Impressum
+  social_heading: "Around the Web"
+  imprint_heading: Impressum
+  imprint: "Impressum"
+  copyright: René Warnke
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks (supported icons: mastodon, linkedin, github)
 social:
   - title: mastodon
     url: https://discuss.tchncs.de/u/rwarnke
   - title: linkedin
     url: https://www.linkedin.com/in/rene-warnke/
   - title: github
-    url: http://github.com/renewarnke
+    url: https://github.com/renewarnke
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address:
-  - line: Sietwende 67
-  - line: 21037, Hamburg
-
-# Credits content
-Credits: 'Impressum Test'
+  - "Sietwende 67"
+  - "21037 Hamburg"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+  - vendor
+  - .github

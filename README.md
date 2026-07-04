@@ -1,32 +1,42 @@
-Freelancer Jekyll theme  
-=========================
+# renewarnke.de
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Persönliche Landingpage für IT-Beratung — gebaut mit [Jekyll](https://jekyllrb.com/).
+Modernes, data-driven Setup ohne Bootstrap/jQuery: die Inhalte liegen in `_data/`
+und `_config.yml`, das Markup in schlanken Partials unter `_includes/`, das Styling
+als Sass in `assets/css/main.scss`. Icons sind inline (SVG), Schriften sind der
+System-Font-Stack — keine externen Requests (DSGVO-freundlich).
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
-client: The Client
-category: Web Development
-description: The description of the project
+## Struktur
 
----
+```
+_config.yml            Seiten-Einstellungen, Hero-Text, Social, Adresse
+_data/
+  navigation.yml       Menüpunkte
+  services.yml         Leistungen (Karten)
+  solutions.yml        Lösungen/Tools (Chips)
+_layouts/default.html  Seitengerüst
+_includes/*.html       Sektionen (hero, services, solutions, about, contact, footer …)
+assets/css/main.scss   Styling (Sass -> compiled)
+assets/js/main.js      Navigation, Scroll, Kontaktformular (Fetch)
+index.html             Einstiegsseite
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
+## Inhalte pflegen
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+- **Text / Kontakt / Social:** `_config.yml`
+- **Leistungen:** `_data/services.yml` (`icon` = `infrastruktur` | `workplace` | `strategie`)
+- **Lösungen:** `_data/solutions.yml`
+- **Menü:** `_data/navigation.yml`
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+Das Kontaktformular läuft über [Formspree](https://formspree.io/) — die ID steht
+als `formspree_id` in `_config.yml`.
+
+## Lokal bauen
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Der Push auf `main` wird über GitHub Actions gebaut und auf GitHub Pages
+veröffentlicht (siehe `.github/workflows/jekyll.yml`).

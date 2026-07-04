@@ -1,0 +1,18 @@
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">Leistungen</h2>
+      <p class="section__lead">Drei Schwerpunkte, ein Ziel: Technik, die wirklich zu Ihnen passt.</p>
+    </div>
+
+    <div class="cards">
+      {% for service in site.data.services %}
+      <article class="card">
+        <div class="card__icon">{% include icon.html name=service.icon %}</div>
+        <h3 class="card__title">{{ service.title }}</h3>
+        <p class="card__text">{{ service.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
