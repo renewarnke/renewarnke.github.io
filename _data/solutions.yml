@@ -3,12 +3,8 @@
   detail: Dateien, Kalender, Kontakte
 - name: Collabora Online
   detail: Dokumente, Tabellen, Präsentationen
-- name: Hetzner / IONOS
+- name: Hetzner / ovhCloud
   detail: Europäisches Cloud-Hosting
-- name: Mailcow
-  detail: E-Mail selbst gehostet
-- name: Jitsi
-  detail: Videokonferenzen
 - name: WireGuard
   detail: VPN & sicherer Zugang
 - name: Tailscale
