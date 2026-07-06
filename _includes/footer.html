@@ -21,7 +21,10 @@
 
     <div class="site-footer__col">
       <h3>{{ site.footer.imprint_heading }}</h3>
-      <p>{{ site.footer.imprint }}</p>
+      <ul class="site-footer__links">
+        <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li>
+        <li><a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a></li>
+      </ul>
     </div>
   </div>
 

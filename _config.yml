@@ -25,8 +25,7 @@ footer:
   location_heading: Standort
   location: Hamburg
   social_heading: "Around the Web"
-  imprint_heading: Impressum
-  imprint: "Impressum"
+  imprint_heading: Rechtliches
   copyright: René Warnke
 
 # Social networks (supported icons: mastodon, linkedin, github)
