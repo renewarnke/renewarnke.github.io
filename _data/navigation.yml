@@ -1,8 +1,8 @@
 # Main navigation — order defines display order
+- title: IT-Check
+  url: "#it-check"
 - title: Leistungen
   url: "#services"
-- title: Lösungen
-  url: "#solutions"
 - title: Über mich
   url: "#about"
 - title: Kontakt

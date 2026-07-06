@@ -1,12 +1,12 @@
 # Site settings
-title: "IT-Lösungen die passen"
-tagline: "Cloud Beratung · Infrastruktur · Workplace"
+title: "IT, die zu Ihrem Betrieb passt"
+tagline: "IT-Beratung für kleine Betriebe · persönlich · aus der Region"
 email: business@warnke.cloud
 url: "https://renewarnke.de"
 baseurl: ""
 lang: de
-description: "Passende und hochwertige IT-Lösungen für Unternehmen — mit europäischen Anbietern und modernen Tools."
-keywords: "Cloud Beratung, KMU, Unternehmen, Europäische Cloud, Nextcloud, Digitalisierung, DSGVO, IT-Lösungen"
+description: "Verständliche IT-Beratung für kleine Betriebe, Handwerker und Familienunternehmen — Backup, Datenschutz, sichere E-Mail und Unabhängigkeit von großen Cloud-Konzernen."
+keywords: "IT-Beratung, Handwerker, Familienunternehmen, kleine Betriebe, Backup, DSGVO, Passwortverwaltung, E-Mail-Sicherheit, IT vor Ort, Hamburg"
 author: René Warnke
 
 # Contact form (Formspree endpoint id -> https://formspree.io/f/<id>)
@@ -15,10 +15,10 @@ formspree_id: meelzejj
 # Hero section
 hero:
   image: /img/profile.png
-  headline: "IT-Lösungen, die zu Ihrem Unternehmen passen"
-  subline: "Nicht zu groß, nicht zu teuer, nicht von der Stange. Durchdacht, hochwertig und mit Fokus auf europäische Anbieter, Datenschutz und langfristige Unabhängigkeit."
-  cta_label: "Kontakt aufnehmen"
-  cta_url: "#contact"
+  headline: "IT, die zu Ihrem Betrieb passt"
+  subline: "Kein anonymes Systemhaus, sondern ein Ansprechpartner von nebenan. Ich helfe kleinen Betrieben, Handwerkern und Familienunternehmen bei Backup, Datenschutz und sicherer IT — verständlich erklärt und ohne unnötige Komplexität."
+  cta_label: "Kostenlosen IT-Check anfragen"
+  cta_url: "#it-check"
 
 # Footer
 footer:
