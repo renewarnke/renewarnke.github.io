@@ -23,7 +23,7 @@ Kontaktformular: [renewarnke.de/#contact]({{ '/#contact' | relative_url }})
 ## Umsatzsteuer-Identifikationsnummer
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-**DE000000000** *(bitte durch Ihre tatsächliche USt-IdNr. ersetzen)*
+**DE463352508**
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
