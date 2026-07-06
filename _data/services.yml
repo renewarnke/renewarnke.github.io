@@ -1,25 +1,25 @@
-# Leistungen / services — icon: infrastruktur | workplace | strategie
-- icon: infrastruktur
-  title: Backup & Schutz vor Datenverlust
+# Leistungen / services — icon: sicherheit | workplace | infrastruktur | strategie
+- icon: sicherheit
+  title: IT-Grundlagen & Sicherheit
   description: >-
-    Was passiert, wenn morgen die Festplatte streikt oder ein
-    Verschlüsselungs-Trojaner zuschlägt? Ich richte ein Backup ein, das
-    wirklich läuft — und getestet ist. Damit Angebote, Rechnungen und
-    Kundendaten im Ernstfall zuverlässig zurückkommen und Sie nachts
-    ruhig schlafen können.
+    Das Fundament, auf das Sie sich verlassen können: ein getestetes Backup
+    gegen Datenverlust, eine übersichtliche Passwortverwaltung und ein
+    ehrlicher, verständlicher Blick auf den Datenschutz (DSGVO). Damit
+    Kundendaten, Rechnungen und Angebote sicher sind — und Sie im Ernstfall
+    ruhig bleiben.
 
 - icon: workplace
-  title: Sicher im Alltag — Passwörter, E-Mail & Datenschutz
+  title: Digitalisierung von Arbeitsabläufen
   description: >-
-    Unübersichtliche Passwörter, verdächtige E-Mails, Unsicherheit bei der
-    DSGVO? Ich bringe Ordnung rein: eine einfache Passwortverwaltung, Schutz
-    vor Phishing und einen ehrlichen, verständlichen Blick darauf, was Sie bei
-    Kunden- und Mitarbeiterdaten beachten müssen.
+    Papierkram und wiederkehrende Handgriffe kosten Zeit. Gemeinsam schauen
+    wir, welche Abläufe sich sinnvoll digitalisieren lassen — und wo moderne
+    KI-Werkzeuge wirklich helfen, etwa beim Schreiben von Texten oder beim
+    Diktieren statt Tippen. Pragmatisch und ohne Technik-Overkill.
 
-- icon: strategie
-  title: Passende Technik & echte Unabhängigkeit
+- icon: infrastruktur
+  title: Souveräne IT-Infrastruktur
   description: >-
-    Veraltete Rechner, Software die nicht mehr passt oder der Wunsch, nicht von
-    großen US-Cloud-Konzernen abhängig zu sein? Wir schauen gemeinsam, was Ihr
-    Betrieb wirklich braucht — mit lokalen und offenen Lösungen, wo es sinnvoll
-    ist, und ohne teures Rundum-sorglos-Paket.
+    Unabhängigkeit von großen Cloud-Konzernen: Ich setze auf lokale und offene
+    Open-Source-Lösungen, die Sie selbst in der Hand behalten. Wo es sinnvoll
+    ist, laufen sogar KI-Werkzeuge direkt bei Ihnen im Betrieb statt in einer
+    fremden Cloud — für volle Kontrolle über Ihre Daten.
