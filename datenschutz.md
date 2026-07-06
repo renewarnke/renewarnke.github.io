@@ -52,10 +52,10 @@ finden Sie in der Datenschutzerklärung von GitHub:
 ### a) Kontaktformular (Formspree)
 
 Für das Kontaktformular auf dieser Website nutze ich den Dienst Formspree der
-Formspree, Inc., USA *(bitte die vollständige Anschrift gemäß der aktuellen
-Formspree-Datenschutzerklärung ergänzen)*. Wenn Sie das Formular absenden,
-werden die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse und Ihre
-Nachricht) über Formspree verarbeitet und an mich per E-Mail weitergeleitet.
+Formspree, Inc., USA (Kontakt: [team@formspree.io](mailto:team@formspree.io)).
+Wenn Sie das Formular absenden, werden die von Ihnen eingegebenen Daten (Name,
+E-Mail-Adresse und Ihre Nachricht) über Formspree verarbeitet und an mich per
+E-Mail weitergeleitet.
 
 Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf den
 Abschluss eines Vertrags gerichtet ist, im Übrigen Art. 6 Abs. 1 lit. f DSGVO
