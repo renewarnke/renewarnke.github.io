@@ -231,6 +231,13 @@ img { max-width: 100%; height: auto; display: block; }
 .card__title { font-size: 1.3rem; margin-bottom: .6rem; }
 .card__text { margin: 0; font-size: .98rem; }
 
+// --- Call-to-action card (IT-Check) ---
+.card--cta { text-align: center; padding: clamp(1.8rem, 4vw, 2.6rem); }
+.card--cta:hover { transform: none; }
+.card--cta .card__text { max-width: 56ch; margin-inline: auto; line-height: 1.65; }
+.card--cta .card__text + .card__text { margin-top: 1rem; }
+.card--cta .btn { margin-top: 1.6rem; }
+
 // --- Solution chips ---
 .chips {
   list-style: none; margin: 0; padding: 0;
