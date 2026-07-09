@@ -49,19 +49,17 @@ finden Sie in der Datenschutzerklärung von GitHub:
 
 ## 4. Kontaktaufnahme
 
-### a) Kontaktformular (Formspree)
+### a) Kontaktformular (Nextcloud Forms)
 
-Für das Kontaktformular auf dieser Website nutze ich den Dienst Formspree der
-Formspree, Inc., USA (Kontakt: [team@formspree.io](mailto:team@formspree.io)).
-Wenn Sie das Formular absenden, werden die von Ihnen eingegebenen Daten (Name,
-E-Mail-Adresse und Ihre Nachricht) über Formspree verarbeitet und an mich per
-E-Mail weitergeleitet.
+Für das Kontaktformular auf dieser Website nutze ich den Nextcloud Forms
+Dienst auf meinem eigenen Server (hosted bei `nc.warnke.cloud`). Wenn Sie das
+Formular absenden, werden die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse
+und Ihre Nachricht) auf meinem Server gespeichert und von mir eingesehen.
+Es erfolgt keine Übermittlung an Dritte.
 
 Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf den
 Abschluss eines Vertrags gerichtet ist, im Übrigen Art. 6 Abs. 1 lit. f DSGVO
-(berechtigtes Interesse an der Bearbeitung Ihrer Anfrage). Die Übermittlung in
-die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln nach Art. 46
-DSGVO. Weitere Informationen: <https://formspree.io/legal/privacy-policy>.
+(berechtigtes Interesse an der Bearbeitung Ihrer Anfrage).
 
 ### b) Kontakt per E-Mail
 

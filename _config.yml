@@ -9,8 +9,8 @@ description: "Verständliche IT-Beratung für kleine Betriebe, Handwerker und Fa
 keywords: "IT-Beratung, Handwerker, Familienunternehmen, kleine Betriebe, Backup, DSGVO, Passwortverwaltung, E-Mail-Sicherheit, IT vor Ort, Hamburg"
 author: René Warnke
 
-# Contact form (Formspree endpoint id -> https://formspree.io/f/<id>)
-formspree_id: meelzejj
+# Contact form (Nextcloud Forms embed URL)
+nextcloud_forms_embed_url: "https://nc.warnke.cloud/apps/forms/embed/TQLRPePnoQ7PyJfyAYNoPgpQ"
 
 # Hero section
 hero:

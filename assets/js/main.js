@@ -29,43 +29,30 @@
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  // --- Contact form: AJAX submit to Formspree (progressive enhancement) ---
-  var form = document.querySelector('[data-contact-form]');
-  if (form) {
-    var status = form.querySelector('[data-form-status]');
-    var setStatus = function (msg, type) {
-      if (!status) return;
-      status.textContent = msg;
-      status.className = 'form__status' + (type ? ' is-' + type : '');
-    };
+  // --- Contact form: Nextcloud Forms iframe (auto-resize + submit feedback) ---
+  var iframe = document.querySelector('[data-contact-iframe]');
+  var wrapper = document.querySelector('[data-contact-form]');
+  if (iframe && wrapper) {
+    var origin = iframe.src.replace(/\/embed\/.*/, '');
 
-    form.addEventListener('submit', function (e) {
-      if (!form.checkValidity()) return; // let native validation handle it
-      e.preventDefault();
+    window.addEventListener('message', function (event) {
+      if (event.origin !== origin) return;
 
-      var button = form.querySelector('button[type="submit"]');
-      if (button) button.disabled = true;
-      setStatus('Wird gesendet …', 'pending');
+      if (event.data && event.data.type === 'resize-iframe' && event.data.payload) {
+        iframe.width = event.data.payload.width;
+        iframe.height = event.data.payload.height;
+        return;
+      }
 
-      fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' }
-      })
-        .then(function (res) {
-          if (res.ok) {
-            form.reset();
-            setStatus('Danke! Ihre Nachricht ist angekommen.', 'success');
-          } else {
-            setStatus('Da ging etwas schief. Bitte schreiben Sie mir direkt per E-Mail.', 'error');
-          }
-        })
-        .catch(function () {
-          setStatus('Netzwerkfehler. Bitte versuchen Sie es später erneut.', 'error');
-        })
-        .finally(function () {
-          if (button) button.disabled = false;
-        });
-    });
+      if (event.data && event.data.type === 'form-saved') {
+        iframe.style.display = 'none';
+        var status = document.createElement('p');
+        status.className = 'form__status is-success';
+        status.setAttribute('role', 'status');
+        status.setAttribute('aria-live', 'polite');
+        status.textContent = 'Danke! Ihre Nachricht ist angekommen.';
+        wrapper.appendChild(status);
+      }
+    }, false);
   }
 })();

@@ -5,27 +5,22 @@
       <p class="section__lead">Erzählen Sie mir kurz, was Sie beschäftigt — ob konkretes Problem oder einfach ein mulmiges Gefühl bei Ihrer IT. Ich melde mich zeitnah bei Ihnen.</p>
     </div>
 
-    <form class="form" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST" data-contact-form novalidate>
-      <div class="form__row">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Ihr Name" required>
+    <div class="form" data-contact-form>
+      <div class="form__iframe-wrapper">
+        <iframe
+          src="{{ site.nextcloud_forms_embed_url }}"
+          width="750"
+          height="900"
+          loading="lazy"
+          allow="clipboard-write"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+          title="Kontaktformular"
+          data-contact-iframe
+        ></iframe>
+        <noscript>
+          <p>Bitte aktivieren Sie JavaScript, um das Kontaktformular zu nutzen.</p>
+        </noscript>
       </div>
-
-      <div class="form__row">
-        <label for="email">E-Mail-Adresse</label>
-        <input type="email" name="email" id="email" placeholder="name@firma.de" required>
-      </div>
-
-      <div class="form__row">
-        <label for="message">Nachricht</label>
-        <textarea name="message" id="message" rows="5" placeholder="Worum geht es?" required></textarea>
-      </div>
-
-      <input type="hidden" name="_subject" value="Neue Anfrage über renewarnke.de">
-      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="form__honeypot">
-
-      <button type="submit" class="btn btn--primary">Nachricht senden</button>
-      <p class="form__status" data-form-status role="status" aria-live="polite"></p>
-    </form>
+    </div>
   </div>
 </section>

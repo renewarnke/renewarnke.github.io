@@ -28,8 +28,8 @@ index.html             Einstiegsseite
 - **Lösungen:** `_data/solutions.yml`
 - **Menü:** `_data/navigation.yml`
 
-Das Kontaktformular läuft über [Formspree](https://formspree.io/) — die ID steht
-als `formspree_id` in `_config.yml`.
+Das Kontaktformular läuft über Nextcloud Forms auf `nc.warnke.cloud` — die
+Embed-URL steht als `nextcloud_forms_embed_url` in `_config.yml`.
 
 ## Lokal bauen
 
