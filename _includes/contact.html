@@ -5,21 +5,13 @@
       <p class="section__lead">Erzählen Sie mir kurz, was Sie beschäftigt — ob konkretes Problem oder einfach ein mulmiges Gefühl bei Ihrer IT. Ich melde mich zeitnah bei Ihnen.</p>
     </div>
 
-    <div class="form" data-contact-form>
-      <div class="form__iframe-wrapper">
-        <iframe
-          src="{{ site.nextcloud_forms_embed_url }}"
-          width="750"
-          height="900"
-          loading="lazy"
-          allow="clipboard-write"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
-          title="Kontaktformular"
-          data-contact-iframe
-        ></iframe>
-        <noscript>
-          <p>Bitte aktivieren Sie JavaScript, um das Kontaktformular zu nutzen.</p>
-        </noscript>
+    <div class="form">
+      <div class="form__card">
+        <p class="form__card-text">Ihre Nachricht wird sicher über meinen Nextcloud-Server verarbeitet — keine Daten an Dritte.</p>
+        <a class="btn btn--primary" href="{{ site.nextcloud_forms_embed_url | replace:'/apps/forms/embed/','/apps/forms/s/' }}" target="_blank" rel="noopener noreferrer">
+          Nachricht senden
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
       </div>
     </div>
   </div>

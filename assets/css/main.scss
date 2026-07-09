@@ -274,22 +274,18 @@ img { max-width: 100%; height: auto; display: block; }
 .about__body .section__title { text-align: left; }
 .about__body .btn { margin-top: .6rem; }
 
-// --- Contact form (Nextcloud Forms iframe) ---
+// --- Contact form (Nextcloud Forms link card) ---
 .form { display: grid; gap: 1.2rem; }
-.form__iframe-wrapper {
-  position: relative;
-  overflow: hidden;
+.form__card {
+  text-align: center;
+  padding: 2rem 1.8rem;
+  background: var(--card);
+  border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-  border: 1px solid var(--line);
-  background: var(--white);
 }
-.form__iframe-wrapper iframe {
-  display: block;
-  border: 0;
-  width: 100%;
-  min-height: 400px;
-}
+.form__card-text { margin: 0 0 1.4rem; font-size: .98rem; color: var(--ink-soft); }
+.form__card .btn svg { flex-shrink: 0; }
 .form__status { margin: 0; font-weight: 600; min-height: 1.2em; text-align: center; }
 .form__status.is-pending { color: var(--ink-soft); }
 .form__status.is-success { color: var(--accent-dark); }

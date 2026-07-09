@@ -29,30 +29,4 @@
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  // --- Contact form: Nextcloud Forms iframe (auto-resize + submit feedback) ---
-  var iframe = document.querySelector('[data-contact-iframe]');
-  var wrapper = document.querySelector('[data-contact-form]');
-  if (iframe && wrapper) {
-    var origin = iframe.src.replace(/\/embed\/.*/, '');
-
-    window.addEventListener('message', function (event) {
-      if (event.origin !== origin) return;
-
-      if (event.data && event.data.type === 'resize-iframe' && event.data.payload) {
-        iframe.width = event.data.payload.width;
-        iframe.height = event.data.payload.height;
-        return;
-      }
-
-      if (event.data && event.data.type === 'form-saved') {
-        iframe.style.display = 'none';
-        var status = document.createElement('p');
-        status.className = 'form__status is-success';
-        status.setAttribute('role', 'status');
-        status.setAttribute('aria-live', 'polite');
-        status.textContent = 'Danke! Ihre Nachricht ist angekommen.';
-        wrapper.appendChild(status);
-      }
-    }, false);
-  }
 })();
